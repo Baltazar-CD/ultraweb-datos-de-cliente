@@ -1,20 +1,3 @@
-/*------------------------------------------------------------------
- * Theme Name: iofrm - form templates
- * Theme URI: http://www.brandio.io/envato/iofrm
- * Author: Brandio
- * Author URI: http://www.brandio.io/
- * Description: A Bootstrap Responsive HTML5 Template
- * Version: 1.0
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * Bootstrap v4.1 (http://getbootstrap.com)
- * Copyright 2019 Brandio.
- -------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General Styles.
-2. Responsive Styles.
--------------------------------------------------------------------*/
 @import url("../../../../css.css");
 /* -----------------------------------
     1 - General Styles
@@ -1049,7 +1032,7 @@ html, body {
 }
 
 .form-content .row.top-padding {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .form-content .row.top-padding .form-button {
