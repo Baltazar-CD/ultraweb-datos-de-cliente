@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraWeb | Datos requeridos para poder empezar a trabajar</title>
+     <meta name="description" content="Rellene el formulario, adjunte su logo y ​​brindenos la información que le pedimos por favor....">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme24.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700&display=swap" rel="stylesheet">
+
+	<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ultraweb.mx/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ultraweb.mx/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ultraweb.mx/assets/images/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://ultraweb.mx/assets/images/favicon.ico" />
+</head>
+<body>
+    <div class="form-body on-top">
+
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder simple-info">
+                    <div><img src="images/logo.png" alt=""></div>
+                    <div><h3>Datos requeridos para poder empezar a trabajar</h3></div>
+                    <div><p>Rellene el formulario, adjunte su logo y ​​brindenos la información que le pedimos por favor.</p></div>
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <form method="POST" action="https://formsubmit.co/formularios@ultraweb.mx" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Nombre Cliente" placeholder="Tu nombre">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Apellido Cliente" placeholder="Tu apellido">
+                                </div>
+                            </div>
+                            <p style="padding-left: 15px; margin-top: 10px; margin-bottom: 10px;">Datos del negocio</p>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="Nombre Negocio" class="form-control" placeholder="Nombre del negocio">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="Correo" class="form-control" placeholder="Correo electrónico">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="Cel" class="form-control" placeholder="Número de teléfono">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="Direccion" class="form-control" placeholder="Dirección completa">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="form-control" name="Descripcion del negocio" placeholder="Descripción del negocio..."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="form-control" name="Servicios Detallados" placeholder="Servicios detallados..."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="form-control" name="Objetivo" placeholder="¿Que quiere lograr con una página web?..."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="custom-file">
+                                        <input type="file" name="attachment" accept="image/png, image/jpeg" class="custom-file-input" id="validatedCustomFile">
+                                        <label class="custom-file-label" for="validatedCustomFile">Adjunta tu Logo</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row top-padding">
+                                <div class="col-12 col-sm-6">
+                                    <input type="checkbox" id="chk1" required><label for="chk1">Acepto la <a href="https://ultraweb.mx/aviso-de-privacidad.html">política de privacidad</a> de ultraweb.</label>
+                                </div>
+                                <input type="hidden" name="_next" value="https://ultraweb-datos-de-cliente.netlify.app/gracias.html">
+                      			<input type="hidden" name="_subject" value="Datos de cliente - formulario">
+                      			<input type="hidden" name="_cc" value="hola@ultraweb.mx">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-button text-right">
+                                        <button id="submit" type="submit" class="ibtn less-padding">Enviar Datos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
